@@ -1,9 +1,10 @@
 
 
-###簡易登入流程 實作Android MVP架構
+# 簡易登入流程 實作Android MVP架構
 ----
 
-#### MVP
+## MVP
+
 
  <img src="https://raw.githubusercontent.com/kennethya2/MVPWorkout/master/markdown/mvp.png" width="350">
 
@@ -11,7 +12,7 @@
 動作邏輯以Presenter介面實作，透過Presenter層對Model資料將行存取，並將結果還傳給UI層作顯示。
  
 
-#### Interface
+## Interface
 
 Contract:
 定義畫面(View)與動作(Presenter)相互對應interface
@@ -56,10 +57,10 @@ Presenter:
 
 
 
-#### LoginActivity
+## LoginActivity
 
 - View click login
-- 
+
 View向Presenter請求登入 mPresenter.login(mUsername, mPassword)
 
 <pre><code> 
@@ -72,7 +73,7 @@ View向Presenter請求登入 mPresenter.login(mUsername, mPassword)
 
 
 
-#### LoginPresenter
+## LoginPresenter
 
 - 進行登入
 
